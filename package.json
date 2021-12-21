@@ -6,7 +6,8 @@
   "license": "MIT",
   "scripts": {
     "start": "webpack serve --config config/webpack.dev.js",
-    "build": "webpack --config config/webpack.prd.js"
+    "build": "webpack --config config/webpack.prd.js",
+    "fix": "prettier --write src/ & eslint --fix src/"
   },
   "dependencies": {
     "react": "^17.0.2",
